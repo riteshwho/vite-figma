@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+}
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+.navbar {
+  height: 72px;
+  width: 1440px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.d-flex {
+  height: 42px;
+  width: 360px;
+  left: 540px;
+  top: 16px;
+  border-radius: 21px;
+
+  position: absolute;
+  width: 360px;
+  height: 42px;
+  left: 540px;
+  top: 16px;
+
+  background: #f2f2f2;
+  border-radius: 21px;
+}
+.header {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.45) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  background-image: url("https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+  height: 440px;
+  width: 1440px;
+  left: 0px;
+  top: 72px;
+  border-radius: 0px;
+}
+.big {
+  position: absolute;
+  width: 378px;
+  height: 47px;
+  left: 200px;
+  top: 358px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.small {
+  position: absolute;
+  width: 327px;
+  height: 23px;
+  left: 200px;
+  top: 409px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+
+.nav-item {
+  position: absolute;
+  width: 47px;
+  height: 21px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #8a8a8a;
+}
+.one {
+  width: 93px;
+  left: 200px;
+  top: 559px;
+}
+.two {
+  left: 313px;
+  top: 559px;
+}
+.three {
+  left: 380px;
+  top: 559px;
+}
+.four {
+  left: 439px;
+  top: 559px;
+}
+.five {
+  left: 531px;
+  top: 559px;
+}
+
+.dropdown-toggle {
+  position: absolute;
+  width: 133px;
+  height: 36px;
+  left: 966px;
+  top: 552px;
+  border-radius: 4px;
+}
+
+.join {
+  position: absolute;
+  width: 125px;
+  height: 36px;
+  left: 1115px;
+  top: 552px;
+
+  background: #2f6ce5;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.card {
+  position: absolute;
+  width: 692px;
+  height: 472px;
+  left: 200px;
+  top: 100px;
+
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.card img {
+  width: 692px;
+  height: 220px;
+}
+
+.name {
+  position: absolute;
+  width: 125px;
+  height: 24px;
+  margin-left: 30px;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.views {
+  position: absolute;
+  width: 69px;
+  height: 18px;
+  margin-left: 440px;
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+
+  color: #525252;
+}
+
+.share {
+  position: absolute;
+  left: 89.5%;
+  right: 12.5%;
+  top: 65.33%;
+  bottom: 8.67%;
+}
+
+.location {
+  position: absolute;
+  width: 87px;
+  height: 18px;
+  left: 1019px;
+  top: 656px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #000000;
+}
+
+.pencil {
+  position: absolute;
+  width: 87px;
+  height: 18px;
+  left: 1150px;
+  top: 656px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.exclam {
+  position: absolute;
+  width: 220px;
+  height: 32px;
+  left: 1020px;
+  top: 717px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.friends {
+  position: absolute;
+  width: 285px;
+  height: 18px;
+  left: 1017px;
+  top: 800px;
+
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.mutual {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 995px;
+  top: 860px;
+  border-radius: 21px;
+}
+.mutualN {
+  position: absolute;
+  width: 104px;
+  height: 19px;
+  left: 110px;
+  top: 16px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.follow {
+  position: absolute;
+  width: 83px;
+  height: 24px;
+  left: 200px;
+  top: 12px;
+  color: white;
+
+  background: #000000;
+  border-radius: 14px;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar {
+    width: 392px;
+  }
+
+  button.btn.btn-primary {
+    margin-left: 20px;
+  }
+
+  .header {
+    width: 392px;
+  }
+  .big {
+    left: 10px;
+
+    font-weight: 400;
+  }
+  .small {
+    left: 10px;
+  }
+
+  .atg {
+    width: 120px;
+  }
+  .search {
+    width: 100px;
+    left: 140px;
+  }
+  .nav-item {
+    position: absolute;
+    width: 47px;
+    height: 21px;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #8a8a8a;
+  }
+
+  .one {
+    width: 93px;
+    left: 2px;
+    top: 559px;
+  }
+  .two {
+    left: 120px;
+    top: 559px;
+  }
+  .three {
+    left: 200px;
+    top: 559px;
+  }
+  .four {
+    left: 265px;
+    top: 559px;
+  }
+  .five {
+    left: 360px;
+    top: 559px;
+  }
+  .dropdown-toggle {
+    display: none;
+  }
+  .join {
+    display: none;
+  }
+
+  .pencil {
+    display: none;
+  }
+
+  .exclam {
+    display: none;
+  }
+
+  .friends {
+    display: none;
+  }
+
+  .mutual {
+    display: none;
+  }
+  .mutualN {
+    display: none;
+  }
+
+  .follow {
+    display: none;
+  }
+  .btn.btn-secondary.dropdown-toggle {
+    display: none;
+  }
+  span.location {
+    display: none;
+  }
+
+  .card {
+    width: 388px;
+    height: 472px;
+    left: 0px;
+    top: 100px;
+
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+  }
+
+  .card img {
+    width: 388px;
+    height: 220px;
+  }
+
+  .name {
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    margin-left: 5px;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    color: #000000;
+  }
+  .views {
+    position: absolute;
+    width: 69px;
+    height: 18px;
+    margin-left: 160px;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+
+    color: #525252;
+  }
+  input.form-control.me-2 {
+    display: none;
+  }
+
+  .share {
+    position: absolute;
+    left: 89.5%;
+    right: 12.5%;
+    top: 68.33%;
+    bottom: 8.67%;
+  }
+}

@@ -296,10 +296,7 @@
   .atg {
     width: 120px;
   }
-  .search {
-    width: 100px;
-    left: 140px;
-  }
+ 
   .nav-item {
     position: absolute;
     width: 47px;
@@ -422,5 +419,8 @@
     right: 12.5%;
     top: 68.33%;
     bottom: 8.67%;
+  }
+  form.d-flex.search{
+    display: none;
   }
 }
